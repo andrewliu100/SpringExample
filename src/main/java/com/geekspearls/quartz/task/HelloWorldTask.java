@@ -16,6 +16,6 @@ import java.util.Date;
 public class HelloWorldTask {
 
     public void sayHello() {
-        System.out.println(new Date() + " Hello from Quartz! World");
+        System.out.println("[" +new Date() + "] Hello from Quartz! World");
     }
 }

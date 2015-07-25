@@ -11,6 +11,8 @@ package com.geekspearls;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Date;
+
 /**
  * @author Andrew
  */
@@ -19,6 +21,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         HelloWorldBean bean = (HelloWorldBean) context.getBean("helloWorldBean");
-        System.out.println(bean.sayHello());
+        System.out.println("Application started [" + new Date() + "] " + bean.sayHello());
     }
 }
