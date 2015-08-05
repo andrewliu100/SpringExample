@@ -6,7 +6,7 @@
  * @author Andrew Liu
  * @since 2015 24/07/2015 8:59 PM
  */
-package com.geekspearls;
+package com.geekspearls.helloworld;
 
 /**
  * @author Andrew
