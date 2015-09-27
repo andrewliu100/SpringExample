@@ -40,10 +40,28 @@
             <version>${slf4j.version}</version>
         </dependency>
 
+        <!-- Log -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
+        </dependency>
+
+        <!-- Jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jsckson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jsckson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jsckson.version}</version>
         </dependency>
     </dependencies>
 
@@ -51,6 +69,7 @@
         <spring.version>3.2.3.RELEASE</spring.version>
         <quartz.version>2.2.1</quartz.version>
         <slf4j.version>1.7.9</slf4j.version>
+        <jsckson.version>2.3.0</jsckson.version>
     </properties>
 
 </project>
