@@ -1,12 +1,12 @@
 /**
  * COPYRIGHT (C) 2015 Andrew Liu. All Rights Reserved.
  * <p>
- * SpringDemo com.geekspearls.jackson.MapValueDeserializer
+ * SpringDemo com.geekspearls.mvc.jackson.server.custom.MapValueDeserializer
  *
  * @author Andrew Liu
  * @since 2015 25/09/2015 9:29 PM
  */
-package com.geekspearls.jackson;
+package com.geekspearls.mvc.jackson.server.custom;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.core.JsonParser;
