@@ -9,6 +9,7 @@
 package com.geekspearls.mvc.jackson.server.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.geekspearls.gc.GCMonitor;
 import com.geekspearls.mvc.jackson.common.ObjectMapperFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -50,5 +51,10 @@ public class AppConfig extends WebMvcConfigurerAdapter {
     @Bean
     public ObjectMapper objectMapper() {
         return ObjectMapperFactory.getObjectMapper();
+    }
+
+    @Bean(initMethod = "registerGCMonitor")
+    public GCMonitor gcMonitor() {
+        return new GCMonitor();
     }
 }

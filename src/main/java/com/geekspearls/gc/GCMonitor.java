@@ -5,7 +5,6 @@ import com.sun.management.GcInfo;
 
 import javax.management.Notification;
 import javax.management.NotificationEmitter;
-import javax.management.NotificationFilter;
 import javax.management.NotificationListener;
 import javax.management.openmbean.CompositeData;
 import java.lang.management.GarbageCollectorMXBean;
